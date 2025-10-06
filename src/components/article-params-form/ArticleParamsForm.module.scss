@@ -2,9 +2,10 @@
 	position: fixed;
 	left: 0;
 	width: 616px;
-	height: 100%;
-	overflow: scroll;
-	transform: translate(-616px);
+	height: 100vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	transform: translate(-614px);
 	transition: transform 0.5s ease;
 }
 
@@ -23,6 +24,7 @@
 	padding: 50px 31px;
 	background-color: #ffffff;
 	border-right: 1px solid #000000;
+	row-gap: 50px;
 }
 
 .bottomContainer {
